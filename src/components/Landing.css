@@ -1,0 +1,106 @@
+  /* Landing Page */
+.Landing {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .Header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Logo {
+    width: 169px;
+    height: 67px;
+  }
+  
+  .NavigationLinks {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  .Link {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  /* Search Bar */
+  .EventSearchBar {
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  .LocationSearchBar {
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .MagnifyingGlass {
+    margin-right: 10px;
+  }
+  
+  /* Explore Events */
+  .ExploreEvents {
+    color: #e25439;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Event Card */
+  .EventCard {
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display:inline;
+  }
+  
+  .EventImage {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .EventDetails {
+    padding: 20px;
+  }
+  
+  .EventTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .EventLocation {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .RegisterButton {
+    padding: 8px 16px;
+    background-color: #e25439;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .Footer {
+    height: 200px;
+    background-color: #d9d9d9;
+    margin-top: 20px;
+  }
+  
